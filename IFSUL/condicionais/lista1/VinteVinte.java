@@ -7,6 +7,7 @@ public class VinteVinte {
         Scanner sc = new Scanner(System.in);
         int idade = sc.nextInt();
 
+        //idade
         if (idade > 20) {
             System.out.println("ABEND");
         } else if (idade < 20) {
