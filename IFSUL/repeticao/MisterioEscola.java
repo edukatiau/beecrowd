@@ -7,12 +7,18 @@ public class MisterioEscola {
         Scanner sc = new Scanner(System.in);
 
         int pessoas = sc.nextInt();
-        int menor = pessoas, maior = 0;
-        for (int x = 0; x < pessoas; x++){
+        int primeiraIdade = sc.nextInt();
+        int menor = primeiraIdade;
+        int maior = primeiraIdade;
+
+        for (int x = 1; x < pessoas; x++) {
             int idade = sc.nextInt();
-            if (idade>maior){
+
+            if (idade > maior) {
                 maior = idade;
-            } else if (idade<menor) {
+            }
+
+            if (idade < menor) {
                 menor = idade;
             }
         }
