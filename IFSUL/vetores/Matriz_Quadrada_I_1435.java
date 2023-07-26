@@ -6,7 +6,7 @@ public class Matriz_Quadrada_I_1435 {
         Scanner sc = new Scanner(System.in);
 
         int quantidade = 0;
-        int num[] = new int[105];
+        int[] num = new int[105];
 
         while(true) {
             num[quantidade] = sc.nextInt();
@@ -20,8 +20,7 @@ public class Matriz_Quadrada_I_1435 {
         for(int x = 0; x <= quantidade; x++) {
             for(int i = 0; i < num[x]; i++) {
                 for(int j = 0; j < num[x]; j++) {
-                    int tmp = 0;
-                    var val = num[x];
+                    int tmp;
                     if (i < num[x]/2) {
 
                         tmp = i+1;

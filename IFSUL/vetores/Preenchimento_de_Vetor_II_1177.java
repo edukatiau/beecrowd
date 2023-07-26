@@ -8,7 +8,7 @@ public class Preenchimento_de_Vetor_II_1177 {
         int[] vetor = new int[1000];
 
         int t = sc.nextInt();
-        
+
         int cont = 0;
         for (int i = 0; i < 1000; i++){
             if(cont == t)
